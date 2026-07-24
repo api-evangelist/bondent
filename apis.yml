@@ -1,7 +1,18 @@
 aid: bondent
-name: bondent
-description: bondent is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Bondent (博恩登特)
+description: >-
+  Bondent (博恩登特, Bondent Group / 博恩集团) is a Chinese oral-healthcare technology
+  company that provides an integrated, digitalized platform and hardware for dental
+  clinics. It develops and manufactures its own clinical equipment — oral CBCT / CT
+  imaging (Bojue series), dental microscopes (Semorr), dental chairs (Bomesin), dental
+  lasers (Doctor Smile), UDG endodontic/root-canal systems, intraoral digital impression
+  scanners, and periodontal/implant and digital-orthodontics solutions — alongside the
+  Edent clinic-management software and the "Bondent Cloud" (博恩云) app for dentists.
+  The company pairs manufacturing with training academies (Bondent Academy / 博恩学苑,
+  Star EMBA), operating eight factories, four solution families across ten product
+  series, over a thousand employees, and serving more than 200,000 dentists. This
+  API Evangelist profile was seeded as a qiming portfolio lead; no public developer
+  or API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/bondent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.bondent.com/source/images/logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Dental
+- Oral Healthcare
+- Medical Devices
+- Dental Imaging
+- CBCT
+- Digital Dentistry
+- Clinic Management
+- Healthcare
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bondent-domain-security.yml
 - type: Website
-  url: https://bondent.com
+  url: https://www.bondent.com
+- type: About
+  url: https://www.bondent.com/about/
+- type: Products
+  url: https://www.bondent.com/infrastructure/
+- type: Blog
+  url: https://www.bondent.com/news-company/
+- type: Support
+  url: https://www.bondent.com/after-sale/
+- type: Website
+  name: Bondent Europe
+  url: https://bondent.eu
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
